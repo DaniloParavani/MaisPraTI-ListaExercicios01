@@ -7,13 +7,6 @@
 
 const prompt = require('prompt-sync')();
 
-console.log("\nFaça um algoritmo que leia quatro números inteiros e realize as seguintes operações:");
-console.log("- Some 25 ao primeiro inteiro;")
-console.log("- Triplique o valor do segundo inteiro;")
-console.log("- Modifique o valor do terceiro inteiro para 12% do valor original;")
-console.log("- Armazene no quarto inteiro a soma dos valores originais (os que o usuário digitou) dos primeiros três inteiros.")
-console.log("\n");
-
 let primeiroNumero = parseInt(prompt("Informe o primeiro valor: "));
 let segundoNumero  = parseInt(prompt("Informe o segundo valor: "));
 let terceiroNumero = parseInt(prompt("Informe o terceiro valor: "));
